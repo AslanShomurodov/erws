@@ -1,0 +1,312 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+body {
+    background-color: #6463E7;
+    box-shadow: 0px 50px 50px -20px rgba(53, 18, 122, 0.50);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+    .wrapper {
+        display: flex;
+        width: 100%;
+        max-width: 920px;
+        height: 509px;
+        border-radius: 23px;
+        background: #FFF;
+        box-shadow: 0px 50px 50px -20px rgba(53, 18, 122, 0.50);
+        background-image: url(../img/Group\ 8\ \(1\).svg);
+        background-repeat: no-repeat;
+        background-position: -230px 70px;
+
+        .nav {
+            width: 100%;
+            max-width: 350px;
+            height: 370px;
+            background-color: transparent;
+            margin-top: 64px;
+            margin-left: 475px;
+
+            .h1 {
+                color: #1E1F36;
+                font-family: Kumbh Sans;
+                font-size: 32px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+                margin-top: -7px;
+            }
+
+            .form-1 {
+                width: 100%;
+                max-width: 350px;
+                height: 35px;
+                background-color: transparent;
+                border-bottom: 1px solid #E8E8EA;
+                background-image: url(../img/Path\ 2\ \(4\).svg);
+                background-repeat: no-repeat;
+                background-position: 326px 6.8px;
+
+                .nav-p1 {
+                    color: #4B4C5F;
+                    font-family: Kumbh Sans;
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                }
+            }
+
+            .form-2 {
+                width: 100%;
+                max-width: 350px;
+                height: 82px;
+                background-color: transparent;
+                margin-top: 18px;
+                border-bottom: 1px solid #E8E8EA;
+
+                .min-form {
+                    width: 100%;
+                    max-width: 333px;
+                    height: 18px;
+                    background-color: transparent;
+                    background-image: url(../img/icon.svg);
+                    background-repeat: no-repeat;
+                    background-position: 325px 6px;
+
+                    .f-p2 {
+                        color: #1E1F36;
+                        font-family: Kumbh Sans;
+                        font-size: 14px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: normal;
+                    }
+                }
+
+                .p {
+                    width: 319px;
+                    color: #787887;
+                    font-family: Kumbh Sans;
+                    font-size: 12px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 18px;
+                    /* 150% */
+                }
+            }
+
+            .form-3 {
+                width: 100%;
+                max-width: 350px;
+                height: 52px;
+                background-color: transparent;
+                background-image: url(../img/Path\ 2\ \(4\).svg);
+                background-repeat: no-repeat;
+                background-position: 320px 23px; 
+                border-bottom: 1px solid #E8E8EA;
+                .form3-p {
+                    color: #4B4C5F;
+                    font-family: Kumbh Sans;
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                    padding-top: 19px;
+                    margin-left: 1px;
+                }
+            }
+            .form-4 {
+                width: 100%;
+                max-width: 350px;
+                height: 35px;
+                background-color: transparent;
+                background-image: url(../img/Path\ 2\ \(4\).svg);
+                background-repeat: no-repeat;
+                background-position: 320px 6.8px; 
+                border-bottom: 1px solid #E8E8EA;
+                .form4-p {
+                    color: #4B4C5F;
+                    font-family: Kumbh Sans;
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                    padding-top: 1px;
+                    margin-left: 1px;
+                }
+            }
+            .form-5 {
+                width: 100%;
+                max-width: 350px;
+                height: 35px;
+                background-color: transparent;
+                background-image: url(../img/Path\ 2\ \(4\).svg);
+                background-repeat: no-repeat;
+                background-position: 320px 6.8px; 
+                border-bottom: 1px solid #E8E8EA;
+                margin-top: 27px;
+                .form5-p {
+                    color: #4B4C5F;
+                    font-family: Kumbh Sans;
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                    padding-top: px;
+                    margin-left: 1px;
+                }
+            }
+        }
+    }
+}
+@media (max-width: 843px) {
+    .wrapper {
+        display: flex;
+        width: 100%;
+        max-width: 920px;
+        height: 509px;
+        border-radius: 23px;
+        background: #FFF;
+        box-shadow: 0px 50px 50px -20px rgba(53, 18, 122, 0.50);
+        background-image: url(../img/Group\ 8\ \(1\).svg);
+        background-repeat: no-repeat;
+        background-position: 250px 70px;
+
+        .nav {
+            width: 100%;
+            max-width: 350px;
+            height: 370px;
+            background-color: transparent;
+            margin-top: 64px;
+            margin-left: 405px;
+
+            .h1 {
+                color: #1E1F36;
+                font-family: Kumbh Sans;
+                font-size: 32px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+                margin-top: -7px;
+            }
+
+            .form-1 {
+                max-width: 350px;
+                height: 35px;
+                background-color: transparent;
+                border-bottom: 1px solid #E8E8EA;
+                background-image: url(../img/Path\ 2\ \(4\).svg);
+                background-repeat: no-repeat;
+                background-position: 326px 6.8px;
+
+                .nav-p1 {
+                    color: #4B4C5F;
+                    font-family: Kumbh Sans;
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                }
+            }
+
+            .form-2 {
+                max-width: 350px;
+                height: 82px;
+                background-color: transparent;
+                margin-top: 18px;
+                border-bottom: 1px solid #E8E8EA;
+
+                .min-form {
+
+                    width: 333px;
+                    height: 18px;
+                    background-color: transparent;
+                    background-image: url(../img/icon.svg);
+                    background-repeat: no-repeat;
+                    background-position: 320px 6px;
+
+                    .f-p2 {
+                        color: #1E1F36;
+                        font-family: Kumbh Sans;
+                        font-size: 14px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: normal;
+                    }
+                }
+
+                .p {
+                    width: 319px;
+                    color: #787887;
+                    font-family: Kumbh Sans;
+                    font-size: 12px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 18px;
+                    /* 150% */
+                }
+            }
+
+            .form-3 {
+                width: 350px;
+                height: 52px;
+                background-color: transparent;
+                background-image: url(../img/Path\ 2\ \(4\).svg);
+                background-repeat: no-repeat;
+                background-position: 320px 23px; 
+                border-bottom: 1px solid #E8E8EA;
+                .form3-p {
+                    color: #4B4C5F;
+                    font-family: Kumbh Sans;
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                    padding-top: 19px;
+                    margin-left: 1px;
+                }
+            }
+            .form-4 {
+                width: 350px;
+                height: 35px;
+                background-color: transparent;
+                background-image: url(../img/Path\ 2\ \(4\).svg);
+                background-repeat: no-repeat;
+                background-position: 320px 6.8px; 
+                border-bottom: 1px solid #E8E8EA;
+                .form4-p {
+                    color: #4B4C5F;
+                    font-family: Kumbh Sans;
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                    padding-top: 1px;
+                    margin-left: 1px;
+                }
+            }
+            .form-5 {
+                width: 350px;
+                height: 35px;
+                background-color: transparent;
+                background-image: url(../img/Path\ 2\ \(4\).svg);
+                background-repeat: no-repeat;
+                background-position: 320px 6.8px; 
+                border-bottom: 1px solid #E8E8EA;
+                margin-top: 27px;
+                .form5-p {
+                    color: #4B4C5F;
+                    font-family: Kumbh Sans;
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                    padding-top: px;
+                    margin-left: 1px;
+                }
+            }
+        }
+    }
+}
